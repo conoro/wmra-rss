@@ -37,7 +37,7 @@ module.exports.check = (event, context, callback) => {
           title: title,
           description: description,
           url: link,
-          author: "SCMP",
+          author: "WMRA",
           date: currentDate
         });
       });
