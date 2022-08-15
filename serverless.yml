@@ -9,6 +9,7 @@ provider:
 functions:
   check:
     handler: index.check
+    description: generate RSS feed from www.wmra.info web-site
     events:
       - http:
           path: rss
